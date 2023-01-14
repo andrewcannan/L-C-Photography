@@ -34,6 +34,35 @@
 
 }
 
+/*------------------------------------------------------footer----*/
+
+.my-footer {
+    background-color: #563e31;
+    width: 100%;
+}
+
+.footer-text-container {
+    text-align: center;
+    padding-top: 25px;
+    letter-spacing: 5px;
+}
+
+.footer-text {
+    font-family:  "Vespre Libre", sans-serif;
+    color: #9E9C99;
+}
+
+.socials-container {
+    text-decoration: none;
+    text-align: center;
+    letter-spacing: 15px;
+    padding-top: 15px;
+}
+
+.socials a {
+    color: #9E9C99;
+    font-size: 30px;
+}
 /*------------------------------------------------------buttons----*/
 
 .my-btn-book {
