@@ -3,10 +3,11 @@
 /*------------------------------------------------------navbar/header----*/
 .my-navbar-container {
     padding-right: 0;
+    z-index: 1;
 }
 
 .my-header {
-    background-color: #27292A;
+    background-color: #112B2F;
     margin: 0;
     padding: 20px 0;
     position: sticky;
@@ -19,7 +20,7 @@
     font-size: 25px;
     margin-left: 20px;
     margin-right: 0;
-    color: #AFB4B6;
+    color: #9E9C99;
 }
 
 .my-nav-item {
@@ -29,7 +30,7 @@
 
 .my-nav-item a {
     font-family: "Vespre Libre", sans-serif;
-    color: #AFB4B6;
+    color: #9E9C99;
     font-size: 18px;
 
 }
@@ -37,7 +38,7 @@
 /*------------------------------------------------------buttons----*/
 
 .my-btn-book {
-    color: #AFB4B6;
+    color: #9E9C99;
     background-color: #97331a;
     border-color: #75525D;
     margin: 0 20px;
@@ -46,7 +47,7 @@
 }
 
 .my-btn-book:hover {
-    color: #AFB4B6;
+    color: #9E9C99;
     background-color: #75525D;
     border-color: #97331a;
 }
@@ -61,3 +62,61 @@
     box-shadow: none;
 }
 
+/*------------------------------------------------------hero image----*/
+
+.hero-container {
+    background: url(../images/reinhart-julian-WxM465oM4j4-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+    width: 100%;
+    animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+
+}
+
+.hero-outer {
+    height: 800px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+@keyframes hero-zoom {
+    from {
+        transform: scale(1);
+    }
+
+    to {
+        transform: scale(1.1);
+    }
+}
+
+.about-link {
+    height: 100px;
+    width: 200px;
+    position: absolute;
+    right: 100px;
+    bottom: 30px;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.about-link-text {
+    color: #9E9C99;
+    font-size: 20px;
+}
+
+/*------------------------------------------------------media querys----*/
+
+@media screen and (max-width: 366px) {
+    .my-brand {
+        margin-right: 5px;
+        font-size: 20px;
+    }
+    .about-link {
+        right: 50px;
+    }
+}
