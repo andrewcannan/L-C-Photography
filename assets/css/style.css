@@ -10,7 +10,6 @@
     background-color: #112B2F;
     margin: 0;
     padding: 20px 0;
-    position: sticky;
 }
 
 .my-brand {
@@ -107,6 +106,17 @@
 .about-link-text {
     color: #9E9C99;
     font-size: 20px;
+}
+
+/*------------------------------------------------------contact----*/
+
+.contact-container {
+    background: url(../images/mylene-tremoyet-Da0pdCekeUs-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
 }
 
 /*------------------------------------------------------media querys----*/
