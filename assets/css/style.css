@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600;700&family=Montserrat:wght@100;200;300;400;500;600;700&family=Vesper+Libre:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600;700&family=Montserrat:wght@100;200;300;400;500;600;700&family=Vesper+Libre:wght@700;900&display=swap');
 
 /*------------------------------------------------------navbar/header----*/
 .my-navbar-container {
@@ -14,8 +14,8 @@
 
 .my-brand {
     text-transform: uppercase;
-    font-family: "Vespre Libre", sans-serif;
-    font-weight: 700;
+    font-family: "Vesper Libre", sans-serif;
+    font-weight: 900;
     font-size: 25px;
     margin-left: 20px;
     margin-right: 0;
@@ -28,7 +28,7 @@
 }
 
 .my-nav-item a {
-    font-family: "Vespre Libre", sans-serif;
+    font-family: "Vesper Libre", sans-serif;
     color: #9E9C99;
     font-size: 18px;
 
@@ -48,7 +48,7 @@
 }
 
 .footer-text {
-    font-family:  "Vespre Libre", sans-serif;
+    font-family:  "Vesper Libre", sans-serif;
     color: #9E9C99;
 }
 
@@ -72,7 +72,7 @@
     border-color: #75525D;
     margin: 0 20px;
     font-size: 20px;
-    font-family: "Vespre Libre", sans-serif;
+    font-family: "Vesper Libre", sans-serif;
 }
 
 .my-btn-book:hover {
@@ -94,7 +94,7 @@
 /*------------------------------------------------------hero image----*/
 
 .hero-container {
-    background: url(../images/reinhart-julian-WxM465oM4j4-unsplash.jpg);
+    background: url(../images/reinhart-julian-WxM465oM4j4-unsplash.webp);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -136,12 +136,13 @@
 .about-link-text {
     color: #9E9C99;
     font-size: 20px;
+    font-family: "Montserrat", sans-serif;
 }
 
 /*------------------------------------------------------contact----*/
 
 .contact-container {
-    background: url(../images/mylene-tremoyet-Da0pdCekeUs-unsplash.jpg);
+    background: url(../images/mylene-tremoyet-Da0pdCekeUs-unsplash.webp);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -154,7 +155,7 @@
 @media screen and (max-width: 366px) {
     .my-brand {
         margin-right: 5px;
-        font-size: 20px;
+        font-size: 18px;
     }
     .about-link {
         right: 50px;

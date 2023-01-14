@@ -14,8 +14,17 @@ This website was created as the 1st Milestone Project (User Centric Frontend Dev
 
 * [User Experience](#user-experience-ux)
     
-    * [User Goals](#owners-goals)
+    * [Owner Goals](#owners-goals)
     * [Visitor Goals](#visitor-goals)
+
+* [Design](#design)
+
+    * [Wireframes](#wireframes)
+    * [Color Palette](#color-palette)
+    * [Typography](#typography)
+    * [Images](#images)
+    * [Icons](#icons)
+
 
 
 <br><br>
@@ -40,6 +49,76 @@ L C Photography is a fictional website made for a semi-professional photographer
 * View the site on device at hand.
 <br><br>
 # Design
+
+## Wireframes
+<br>
+Created wireframes using balsamiq software.
+<br><br>
+<details>
+<summary>Wireframes</summary>
+<br>
+<details>
+<summary>Homepage Desktop</summary>
+<br>
+<img src="assets/images/readme-images/Homepage Desktop.png">
+</details>
+<details>
+<summary>Homepage Mobile</summary>
+<br>
+<img src="assets/images/readme-images/Homepage Mobile.png">
+</details>
+<details>
+<summary>Gallery Desktop</summary>
+<br>
+<img src="assets/images/readme-images/Gallery Desktop.png">
+</details>
+<details>
+<summary>Gallery Mobile</summary>
+<br>
+<img src="assets/images/readme-images/Gallery Mobile.png">
+</details>
+<details>
+<summary>Contact Desktop</summary>
+<img src="assets/images/readme-images/Contact Desktop.png">
+</details>
+<details>
+<summary>Contact Mobile</summary>
+<br>
+<img src="assets/images/readme-images/Contact Mobile.png">
+</details>
+<details>
+<summary>Response Desktop</summary>
+<br>
+<img src="assets/images/readme-images/Response Desktop.png">
+</details>
+<details>
+<summary>Response Mobile</summary>
+<br>
+<img src="assets/images/readme-images/Response Mobile.png">
+</details>
+<br>
+</details>
+<br><br>
+
+## Color Palette
+Created color palette by taking colors from background image on Contact and Response pages. Used canva.com to generate 4 colors from the image.
+<br><br>
+<img src="assets/images/readme-images/color palette 2.png">
+<br><br>
+## Typography
+Used a website called [Fontpair](https://www.fontpair.co/all) to select a font pairing that i thought would work for the site. I chose Montserrat and Hind as they are easily readible and modern but dont distract the visitor away from the main purpose of a photography website which is to display the photographers work.
+
+I chose Vesper Libre for the font for my Headers and Footers as I liked the look of them. 
+
+* [Montserrat](https://fonts.google.com/specimen/Montserrat?query=montserrat)
+* [Hind](https://fonts.google.com/specimen/Hind?query=hind)
+* [Vesper Libre](https://fonts.google.com/specimen/Vesper+Libre?query=vesper)
+<br><br>
+## Images
+Images sourced from royalty free image sites **__insert site names here__**. Images were then converted into webp format to reduce files size and in turn loading times. Converted online using [Convertio](https://convertio.co/).
+<br><br>
+## Icons
+All icons used on the site from [FontAwesome](https://fontawesome.com/).
 
 
 
