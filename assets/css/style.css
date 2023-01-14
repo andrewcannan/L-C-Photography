@@ -1,2 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600;700&family=Montserrat:wght@100;200;300;400;500;600;700&family=Vesper+Libre:wght@700&display=swap');
 
+/*------------------------------------------------------navbar/header----*/
+.my-navbar-container {
+    padding-right: 0;
+}
+
+.my-header {
+    background-color: #27292A;
+    margin: 0;
+    padding: 20px 0;
+    position: sticky;
+}
+
+.my-brand {
+    text-transform: uppercase;
+    font-family: "Vespre Libre", sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    margin-left: 20px;
+    margin-right: 0;
+    color: #AFB4B6;
+}
+
+.my-nav-item {
+    padding-right: 15px;
+    text-align: right;
+}
+
+.my-nav-item a {
+    font-family: "Vespre Libre", sans-serif;
+    color: #AFB4B6;
+    font-size: 18px;
+
+}
+
+/*------------------------------------------------------buttons----*/
+
+.my-btn-book {
+    color: #AFB4B6;
+    background-color: #97331a;
+    border-color: #75525D;
+    margin: 0 20px;
+    font-size: 20px;
+    font-family: "Vespre Libre", sans-serif;
+}
+
+.my-btn-book:hover {
+    color: #AFB4B6;
+    background-color: #75525D;
+    border-color: #97331a;
+}
+
+.my-toggler:focus {
+    border: none;
+    box-shadow: none;
+}
+
+.my-toggler {
+    border: none;
+    box-shadow: none;
+}
 
