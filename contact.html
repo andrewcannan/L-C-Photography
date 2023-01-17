@@ -54,8 +54,34 @@
     <!-------------------------------main--------------------------------->
     <!-- bootstrap used for layout and positioning -->
     <main>
-        <div class="row g-0 contact-row mx-0">
-            <div class="col-12 contact-container"></div>
+        <div class="row g-0 contact-row container-fluid">
+            <div class="form-container col container-fluid">
+                <form>
+                    <h2 class="contact-heading">
+                        Get in touch with me.
+                    </h2>
+                    <p class="contact-paragraph">
+                        I would love to work with you, if you have a project in mind get in touch.
+                    </p>
+                    <label for="fullname" class="form-label sr-only">Full Name</label>
+                    <input type="text" name="fullname" class="form-control" id="fullname" placeholder="Full Name"
+                        required>
+
+                    <label for="email" class="form-label sr-only">Email address</label>
+                    <input type="email" name="email" class="form-control" id="email" placeholder="Email Address"
+                        required>
+
+                    <label for="description" class="form-label sr-only">Services Required</label>
+                    <textarea rows="5" name="description" id="description" class="form-control"
+                        placeholder="Please provide a brief description of services required." required></textarea>
+                    <div class="row text-center">
+                        <div class="col">
+                            <a href="response.html" class="btn btn-success submit-btn">Submit</a>
+                        </div>
+                    </div>
+                </form>
+
+            </div>
         </div>
     </main>
     <!-------------------------------/main--------------------------------->
@@ -70,13 +96,16 @@
             <div class="col-12 col-sm-6 socials-container">
                 <ul class="list-inline socials">
                     <li class="list-inline-item">
-                        <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-square-facebook"></i></a>
+                        <a href="https://www.facebook.com/" target="_blank"><i
+                                class="fa-brands fa-square-facebook"></i></a>
                     </li>
                     <li class="list-inline-item">
-                        <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-square-instagram"></i></a>
+                        <a href="https://www.instagram.com/" target="_blank"><i
+                                class="fa-brands fa-square-instagram"></i></a>
                     </li>
                     <li class="list-inline-item">
-                        <a href="https://www.twitter.com/" target="_blank"><i class="fa-brands fa-square-twitter"></i></a>
+                        <a href="https://www.twitter.com/" target="_blank"><i
+                                class="fa-brands fa-square-twitter"></i></a>
                     </li>
                 </ul>
             </div>

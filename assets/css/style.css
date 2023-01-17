@@ -19,6 +19,7 @@
     font-size: 25px;
     margin-left: 20px;
     margin-right: 0;
+    margin-top: 5px;
     color: #9E9C99;
 }
 
@@ -141,13 +142,58 @@
 
 /*------------------------------------------------------contact----*/
 
-.contact-container {
+.contact-row {
     background: url(../images/mylene-tremoyet-Da0pdCekeUs-unsplash.webp);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh;
+    height: 900px;
     width: 100%;
+    position: relative;
+}
+
+.form-container {
+    max-width: 70%;
+    margin: 0 auto;
+    padding: 20px 10px 20px 10px;
+    background-color: rgba(158, 156, 153, 0.4);
+    position: absolute;
+    top: 80px;
+    left: 15%;
+}
+
+.contact-heading {
+    font-family: "Montserrat", sans-serif;
+    padding: 5px;
+    text-align: center;
+    margin-top: 20px;
+    font-size: calc(2.5rem + .9vw);
+    font-weight: 600;
+    
+}
+
+.contact-paragraph {
+    font-family: "Hind", sans-serif;
+    font-weight: 500;
+    font-size: 1.1rem;
+    padding: 5px;
+    text-align: center;
+    margin: 20px 0 30px 0;
+}
+
+.form-control {
+    font-family: "Hind", sans-serif;
+    background-color: rgba( 255, 255, 255, 0.4);
+    margin: 20px auto;
+}
+
+.form-control:hover {
+    border-color: #112B2F;
+}
+
+.submit-btn:hover {
+    border-color: #112B2F;
+    
 }
 
 /*------------------------------------------------------media querys----*/
@@ -160,4 +206,15 @@
     .about-link {
         right: 50px;
     }
+}
+
+@media screen and (max-width: 376px) {
+    .my-brand {
+        margin-left: 15px;
+    }
+    .about-link {
+        right: 50px;
+    }
+    .form-container {
+        top: 40px;
 }
