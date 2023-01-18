@@ -49,7 +49,7 @@
 }
 
 .footer-text {
-    font-family:  "Vesper Libre", sans-serif;
+    font-family: "Vesper Libre", sans-serif;
     color: #9E9C99;
 }
 
@@ -140,6 +140,28 @@
     font-family: "Montserrat", sans-serif;
 }
 
+/*------------------------------------------------------gallery page----*/
+
+.photos {
+    clear: both;
+    line-height: 0;
+    column-count: 4;
+    column-gap: 0;
+    max-width: 100%;
+    background-color: #9E9C99;
+}
+
+.photos img {
+    width: 100%;
+}
+
+.gallery-heading {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    padding: 30px 0 30px 30px;
+    background-color: #a3a19d;
+}
+
 /*------------------------------------------------------contact page----*/
 
 .contact-row {
@@ -169,7 +191,7 @@
     margin-top: 20px;
     font-size: calc(2.5rem + .9vw);
     font-weight: 600;
-    
+
 }
 
 .contact-paragraph {
@@ -183,7 +205,7 @@
 
 .form-control {
     font-family: "Hind", sans-serif;
-    background-color: rgba( 255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.5);
     margin: 20px auto;
 }
 
@@ -193,7 +215,7 @@
 
 .submit-btn:hover {
     border-color: #112B2F;
-    
+
 }
 
 /*------------------------------------------------------response page----*/
@@ -209,12 +231,12 @@
 }
 
 .response-heading {
-        font-family: "Montserrat", sans-serif;
-        padding: 5px;
-        text-align: center;
-        margin-top: 20px;
-        font-size: calc(2.5rem + .9vw);
-        font-weight: 600;
+    font-family: "Montserrat", sans-serif;
+    padding: 5px;
+    text-align: center;
+    margin-top: 20px;
+    font-size: calc(2.5rem + .9vw);
+    font-weight: 600;
 }
 
 .response-paragraph {
@@ -228,24 +250,44 @@
 
 /*------------------------------------------------------media querys----*/
 
-@media screen and (max-width: 366px) {
-    .my-brand {
-        margin-right: 5px;
-        font-size: 18px;
-    }
-    .about-link {
-        right: 50px;
-    }
-}
-
 @media screen and (max-width: 376px) {
     .my-brand {
-        margin-left: 15px;
+        margin-left: 10px;
+        margin-right: 0px;
+        font-size: 20px;
     }
+
     .about-link {
         right: 50px;
     }
+
     .form-container {
         top: 40px;
     }
 }
+
+@media screen and (min-width: 992px) {
+    .photos img:hover {
+        transform: scale(1.2)
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .photos {
+        column-count: 3;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .photos {
+        column-count: 2;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .photos {
+        column-count: 1;
+    }
+}
+
+
