@@ -14,7 +14,7 @@
 
 <body>
     <!-------------------------------header--------------------------------->
-    <header>
+    <header id="sticky">
         <!-- bootstrap's navbar and navigation are used, styling changed with classes prefixed 'my'-->
         <div class="row g-0">
             <div class="col-12 my-navbar-container">
@@ -150,6 +150,18 @@
     <!-------------------------------/footer--------------------------------->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous">
+    </script>
+    <script>
+        var prevScrollpos = window.pageYOffset;
+        window.onscroll = function () {
+            var currentScrollPos = window.pageYOffset;
+            if (prevScrollpos > currentScrollPos) {
+                document.getElementById("sticky").style.top = "0";
+            } else {
+                document.getElementById("sticky").style.top = "-92.5px";
+            }
+            prevScrollpos = currentScrollPos;
+        }
     </script>
 </body>
 
