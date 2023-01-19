@@ -106,7 +106,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 800px;
+    height: 100vh;
     width: 100%;
     animation-name: hero-zoom;
     animation-duration: 5s;
@@ -115,7 +115,7 @@
 }
 
 .hero-outer {
-    height: 800px;
+    height: 100vh;
     width: 100%;
     overflow: hidden;
     position: relative;
