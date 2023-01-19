@@ -168,7 +168,7 @@
 
 .about-text-1,
 .about-text-2 {
-    font-family: "Hind";
+    font-family: "Hind", sans-serif;
     text-align: center;
     margin: 0;
     padding: 10px 5px;
@@ -180,6 +180,46 @@
     border: 0;
     background-color: #9E9C99;
     margin: 0 auto;
+}
+
+/*------------------------------------------------------testimonials----*/
+
+.testimonial-image-1 {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background: url(../images/christina-wocintechchat-com-0Zx1bDv5BNY-unsplash.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+ 
+.testimonial-image-2 {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background: url(../images/ali-morshedlou-WMD64tMfc4k-unsplash.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.testimonial-container {
+    padding: 25px 5px;
+}
+
+.testimonial-heading {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 40px 0;
+}
+
+.testimonial-text {
+    margin: 0;
+    font-family: "Hind", sans-serif;
 }
 
 /*------------------------------------------------------gallery page----*/
@@ -326,6 +366,12 @@
     }
     .lloyd-photo {
         margin: 0 auto;
+    }
+    .about-text-2 {
+        padding-top: 25px;
+    }
+    .testimonial-text {
+        padding: 25px 5px 5px;
     }
 }
 
