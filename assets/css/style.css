@@ -34,6 +34,44 @@
 
 }
 
+.my-btn-book {
+    color: #9E9C99;
+    background-color: #97331a;
+    border-color: #75525D;
+    margin: 0 20px;
+    font-size: 20px;
+    font-family: "Vesper Libre", sans-serif;
+}
+
+.my-btn-book:hover {
+    color: #9E9C99;
+    background-color: #75525D;
+    border-color: #97331a;
+}
+
+.my-toggler:focus {
+    border: none;
+    box-shadow: none;
+}
+
+.my-toggler {
+    border: none;
+    box-shadow: none;
+}
+
+.my-dropdown {
+    background-color: #112B2F;
+    text-align: right;
+    border: none;
+}
+
+.my-dropdown li a:hover {
+    background-color: #112B2F;
+    color: #000;
+    transition: color .15s ease-in-out;
+    
+}
+
 #sticky {
     position: fixed;
     top: 0;
@@ -70,33 +108,6 @@
 .socials a {
     color: #9E9C99;
     font-size: 30px;
-}
-
-/*------------------------------------------------------buttons----*/
-
-.my-btn-book {
-    color: #9E9C99;
-    background-color: #97331a;
-    border-color: #75525D;
-    margin: 0 20px;
-    font-size: 20px;
-    font-family: "Vesper Libre", sans-serif;
-}
-
-.my-btn-book:hover {
-    color: #9E9C99;
-    background-color: #75525D;
-    border-color: #97331a;
-}
-
-.my-toggler:focus {
-    border: none;
-    box-shadow: none;
-}
-
-.my-toggler {
-    border: none;
-    box-shadow: none;
 }
 
 /*------------------------------------------------------hero image----*/
@@ -181,12 +192,18 @@
     padding: 10px 5px;
 }
 
+.about-text-1,
+.about-text-2 p {
+    margin-top: 10px;
+}
+
 .page-break {
     max-width: 60%;
     height: 5px;
     border: 0;
     background-color: #9E9C99;
     margin: 0 auto;
+    margin-top: 40px;
 }
 
 /*------------------------------------------------------testimonials----*/
@@ -244,11 +261,30 @@
     width: 100%;
 }
 
+.gallery-heading-top-container {
+    padding-top: 93px;
+    background-color: #a3a19d;
+}
+
+.gallery-heading-container {
+    background-color: #a3a19d;
+}
+
 .gallery-heading {
     font-family: "Montserrat", sans-serif;
     font-weight: 600;
-    padding: 30px 0 30px 30px;
-    background-color: #a3a19d;
+    padding: 30px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.gallery-heading h2 {
+    margin: 0;
+}
+
+.gallery-book-btn {
+    margin: 0 auto;
+    margin-top: 24px;
 }
 
 /*------------------------------------------------------contact page----*/
@@ -261,6 +297,7 @@
     height: 900px;
     width: 100%;
     position: relative;
+    margin-top: 93px;
 }
 
 .form-container {
@@ -317,6 +354,7 @@
     position: absolute;
     top: 80px;
     left: 15%;
+    padding-top: 93px;
 }
 
 .response-heading {
