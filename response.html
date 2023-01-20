@@ -13,9 +13,10 @@
 </head>
 
 <body>
-    <!-------------------------------header--------------------------------->
+    <!-------------------------------------------------------------------header-------------------------------------------------------------->
     <header id="sticky">
         <!-- bootstrap's navbar and navigation are used, styling changed with classes prefixed 'my'-->
+        <!-- modal also taken from bootstrap and adjusted to fit my project, modal at end -->
         <div class="row g-0">
             <div class="col-12 my-navbar-container">
                 <nav class="navbar navbar-expand-lg my-header">
@@ -29,7 +30,7 @@
                         <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
                             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                                 <li class="nav-item my-nav-item">
-                                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                                    <a class="nav-link" aria-current="page" href="index.html">Home</a>
                                 </li>
                                 <li class="nav-item my-nav-item">
                                     <a class="nav-link" href="gallery.html">Gallery</a>
@@ -38,9 +39,8 @@
                                     <a class="nav-link" href="contact.html">Contact</a>
                                 </li>
                                 <li class="my-nav-btn">
-                                    <button type="button"
-                                        class="btn my-btn-book d-none d-m-block d-lg-block d-xl-block">Book
-                                        Now</button>
+                                    <button type="button" class="btn my-btn-book d-none d-m-block d-lg-block d-xl-block"
+                                        data-bs-toggle="modal" data-bs-target="#book-modal">Book Now</button>
                                 </li>
                             </ul>
                         </div>
@@ -49,9 +49,9 @@
             </div>
         </div>
     </header>
-    <!-------------------------------/header--------------------------------->
+    <!------------------------------------------------------------/header----------------------------------------------------------------------->
 
-    <!-------------------------------main--------------------------------->
+    <!--------------------------------------------------------------main------------------------------------------------------------------------>
     <!-- bootstrap used for layout and positioning -->
     <main>
         <div class="row g-0 contact-row">
@@ -61,9 +61,10 @@
             </div>
         </div>
     </main>
-    <!-------------------------------/main--------------------------------->
+    <!---------------------------------------------------------------/main----------------------------------------------------------------------->
 
-    <!-------------------------------footer--------------------------------->
+
+    <!--------------------------------------------------------------footer----------------------------------------------------------------------->
     <!-- bootstrap used for layout and responsiveness -->
     <footer>
         <div class="row g-0 my-footer container-fluid">
@@ -73,22 +74,56 @@
             <div class="col-12 col-sm-6 socials-container">
                 <ul class="list-inline socials">
                     <li class="list-inline-item">
-                        <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-square-facebook"></i></a>
+                        <a href="https://www.facebook.com/" target="_blank"><i
+                                class="fa-brands fa-square-facebook"></i></a>
                     </li>
                     <li class="list-inline-item">
-                        <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-square-instagram"></i></a>
+                        <a href="https://www.instagram.com/" target="_blank"><i
+                                class="fa-brands fa-square-instagram"></i></a>
                     </li>
                     <li class="list-inline-item">
-                        <a href="https://www.twitter.com/" target="_blank"><i class="fa-brands fa-square-twitter"></i></a>
+                        <a href="https://www.twitter.com/" target="_blank"><i
+                                class="fa-brands fa-square-twitter"></i></a>
                     </li>
                 </ul>
             </div>
         </div>
     </footer>
-    <!-------------------------------/footer--------------------------------->
+    <!---------------------------------------------------------------/footer--------------------------------------------------------------------->
+
+    <!--modal taken from bootstrap, styling changed and form added from contact page-->
+    <div class="modal fade" id="book-modal" tabindex="-1" aria-labelledby="book-modal-label" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title my-modal-title" id="book-modal-label">Get in touch with me.</h1>
+                    <p class="my-modal-subtitle">I would love to work with you, if you have a project in mind get in
+                        touch.</p>
+                </div>
+                <div class="modal-body">
+                    <form action="response.html">
+                        <label for="fullname" class="form-label sr-only">Full Name</label>
+                        <input type="text" name="fullname" class="form-control" id="fullname" placeholder="Full Name"
+                            required>
+                        <label for="email" class="form-label sr-only">Email address</label>
+                        <input type="email" name="email" class="form-control" id="email" placeholder="Email Address"
+                            required>
+                        <label for="description" class="form-label sr-only">Services Required</label>
+                        <textarea rows="5" name="description" id="description" class="form-control"
+                            placeholder="Please provide a brief description of services required." required></textarea>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="submit" class="btn btn-success submit-btn">Submit</a>
+                </div>
+            </div>
+            </form>
+        </div>
+    </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous">
     </script>
+    <!--script used from w3schools and adjusted for height of my navbar -->
     <script>
         var prevScrollpos = window.pageYOffset;
         window.onscroll = function () {

@@ -110,6 +110,8 @@
     font-size: 30px;
 }
 
+/*------------------------------------------------------homepage----*/
+
 /*------------------------------------------------------hero image----*/
 
 .hero-container {
@@ -431,4 +433,24 @@
     .about-text-2 {
         padding-top: 25px;
     }
+}
+
+/*------------------------------------------------------modal----*/
+
+.modal-header {
+    display: inline;
+}
+
+.my-modal-title {
+    font-family: "Montserrat", sans-serif;
+    display: block;
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 16px;
+    text-align: center;
+}
+
+.my-modal-subtitle {
+    font-family: "Hind", sans-serif;
+    text-align: center;
 }
