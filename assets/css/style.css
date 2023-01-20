@@ -380,6 +380,14 @@
 /*------------------------------------------------------media querys----*/
 
 @media screen and (max-width: 376px) {
+    .response-container {
+        padding-top: 85px;
+    }
+
+    .contact-row {
+        margin-top: 85px;
+    }
+
     .my-brand {
         margin-left: 10px;
         margin-right: 0px;
