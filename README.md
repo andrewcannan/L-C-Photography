@@ -171,7 +171,7 @@ The template for the Modal that appears when the **Book Now** button is clicked 
 <img src="assets/images/readme-images/book button.png"><img src="assets/images/readme-images/book button 2.png">
 <br><br>
 ## About Me and Testimonials 
-This area of the **Home** page offers information about Lloyd and and his passion for Photography. Also a few testaments to his past work to entice new clients. Bootstrap grid used for postioning and responsiveness. About me section of the page has three coloums that also reorder dependant on the size of the device.
+This area of the **Home** page offers information about Lloyd and and his passion for Photography. Also a few testaments to his past work to entice new clients. Bootstrap grid used for postioning and responsiveness. About me section of the page has three columns that also reorder dependant on the size of the device.
 <br><br>
 <img src="assets/images/readme-images/about me large.png">
 <img src="assets/images/readme-images/about me mid.png">
@@ -181,7 +181,7 @@ This area of the **Home** page offers information about Lloyd and and his passio
 ## Gallery
 Gallery is seperated in to three rows using bootstrap grid and images set in CSS to display in a masonary flexible approach similar to that on the Love Running Project. Images scale up when hovered over only on large screen sizes.
 
-**Book Now** button available for viewing on small screen sizes only, displays modal with contact form and links to **Response** page. 
+**Book Now** button next to headings available for viewing on small screen sizes only, displays modal with contact form and links to **Response** page. 
 
 Also only viewable on mobile is navigation menu fixed to the bottom right corner as the page gets particularly long with the amount of images, making it cumbersome to navigate from portrait photos to wedding photos for example. Bootstrap toggler template taken and adjusted and styled. 
 <br><br>
