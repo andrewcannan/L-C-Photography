@@ -96,6 +96,7 @@
 .footer-text {
     font-family: "Vesper Libre", sans-serif;
     color: #9E9C99;
+    font-size: 25px;
 }
 
 .socials-container {
@@ -405,7 +406,7 @@
     }
 
     .my-brand {
-        margin-left: 10px;
+        margin-left: 0px;
         margin-right: 0px;
         font-size: 20px;
     }

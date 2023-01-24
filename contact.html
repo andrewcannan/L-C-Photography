@@ -9,6 +9,8 @@
         integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <link href="assets/css/style.css" rel="stylesheet">
     <script src="https://kit.fontawesome.com/0f1d727d9d.js" crossorigin="anonymous"></script>
+    <meta name="description"
+        content="Searching for a photographer in South Wales? I’m a professional wedding/event/potrait photographer with fifteen years of experience in the industry.">
     <title>L C Photography</title>
 </head>
 
@@ -57,9 +59,9 @@
         <div class="row g-0 contact-row container-fluid">
             <div class="form-container col container-fluid">
                 <form action="response.html">
-                    <h2 class="contact-heading">
+                    <h1 class="contact-heading">
                         Get in touch with me.
-                    </h2>
+                    </h1>
                     <p class="contact-paragraph">
                         I would love to work with you, if you have a project in mind get in touch.
                     </p>
@@ -88,21 +90,25 @@
     <footer>
         <div class="row g-0 my-footer container-fluid">
             <div class="col-12 col-sm-6 footer-text-container">
-                <h4 class="footer-text">L C Photography ©2023</h4>
+                <h2 class="footer-text">L C Photography ©2023</h2>
             </div>
             <div class="col-12 col-sm-6 socials-container">
                 <ul class="list-inline socials">
                     <li class="list-inline-item">
-                        <a href="https://www.facebook.com/" target="_blank"><i
-                                class="fa-brands fa-square-facebook"></i></a>
+                        <a href="https://www.facebook.com/" target="_blank" aria-label="Facebook-(Opens in new tab)"><i
+                                class="fa-brands fa-square-facebook" aria-hidden="true"></i>
+                        </a>
                     </li>
                     <li class="list-inline-item">
-                        <a href="https://www.instagram.com/" target="_blank"><i
-                                class="fa-brands fa-square-instagram"></i></a>
+                        <a href="https://www.instagram.com/" target="_blank"
+                            aria-label="Instagram-(Opens in new tab)"><i class="fa-brands fa-square-instagram"
+                                aria-hidden="true"></i>
+                        </a>
                     </li>
                     <li class="list-inline-item">
-                        <a href="https://www.twitter.com/" target="_blank"><i
-                                class="fa-brands fa-square-twitter"></i></a>
+                        <a href="https://www.twitter.com/" target="_blank" aria-label="Twitter-(Opens in new tab)"><i
+                                class="fa-brands fa-square-twitter" aria-hidden="true"></i>
+                        </a>
                     </li>
                 </ul>
             </div>
@@ -115,7 +121,7 @@
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h1 class="modal-title my-modal-title" id="book-modal-label">Get in touch with me.</h1>
+                    <h1 class="modal-title my-modal-title" id="book-modal-heading">Get in touch with me.</h1>
                     <p class="my-modal-subtitle">I would love to work with you, if you have a project in mind get in
                         touch.</p>
                 </div>
@@ -145,9 +151,9 @@
     </script>
     <!--script used from w3schools and adjusted for height of my navbar -->
     <script>
-        var prevScrollpos = window.pageYOffset;
+        let prevScrollpos = window.pageYOffset;
         window.onscroll = function () {
-            var currentScrollPos = window.pageYOffset;
+            let currentScrollPos = window.pageYOffset;
             if (prevScrollpos > currentScrollPos) {
                 document.getElementById("sticky").style.top = "0";
             } else {
