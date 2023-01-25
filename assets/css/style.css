@@ -34,19 +34,28 @@
 
 }
 
+.my-nav-item .my-nav-link.active {
+    color: #9E9C99;
+    text-decoration: overline;
+}
+
+.my-nav-item .my-nav-link:hover {
+    color: #97331a;
+}
+
 .my-btn-book {
     color: #9E9C99;
     background-color: #97331a;
-    border-color: #75525D;
+    border-color: #97331a;
     margin: 0 20px;
     font-size: 20px;
     font-family: "Vesper Libre", sans-serif;
 }
 
 .my-btn-book:hover {
-    color: #9E9C99;
-    background-color: #75525D;
-    border-color: #97331a;
+    color: #97331a;
+    background-color: #9E9C99;
+    border-color: #9E9C99;
 }
 
 .my-toggler:focus {
@@ -273,16 +282,13 @@
     background-color: #a3a19d;
 }
 
-.gallery-heading {
+.gallery-heading h1,h2 {
     font-family: "Montserrat", sans-serif;
     font-weight: 600;
     padding: 30px;
     text-align: center;
     text-transform: uppercase;
-}
-
-.gallery-heading h2 {
-    margin: 0;
+    font-size: 30px;
 }
 
 .gallery-book-btn {
@@ -406,7 +412,7 @@
     }
 
     .my-brand {
-        margin-left: 0px;
+        margin-left: 10px;
         margin-right: 0px;
         font-size: 20px;
     }
@@ -418,6 +424,10 @@
     .form-container {
         top: 40px;
     }
+
+        .gallery-heading h1,h2 {
+            font-size: 23px;
+        }
 }
 
 @media screen and (min-width: 992px) {

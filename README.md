@@ -212,13 +212,13 @@ Further development to the site could be using some php to create a database of 
 <br><br>
 # Technologies
 ## Languages
-The site was mainly developed using HTML and CSS, though some JavaScript was used to to make the dissapearing navbar feature.
+The site was mainly developed using HTML and CSS, though some JavaScript was used to to make the disappearing navbar feature.
 <br><br>
 ## Frameworks, Libaries and Programs
 * Bootstrap 5.2 
     * Used for Layout and Positioning. Also code used for navbar and modal.
 * W3Schools
-    * Code used for dissapearing header/navbar.
+    * Code used for disappearing header/navbar.
 * Git / Github
     * Used for version control, storage and deployment.
 * Gitpod
