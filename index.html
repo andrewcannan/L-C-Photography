@@ -173,15 +173,12 @@
                 </div>
                 <form action="response.html">
                     <div class="modal-body">
-                        <label for="fullname" class="form-label sr-only">Full Name</label>
                         <input type="text" name="fullname" class="form-control" id="fullname" placeholder="Full Name"
-                            required>
-                        <label for="email" class="form-label sr-only">Email address</label>
-                        <input type="email" name="email" class="form-control" id="email" placeholder="Email Address"
-                            required>
-                        <label for="description" class="form-label sr-only">Services Required</label>
-                        <textarea rows="5" name="description" id="description" class="form-control"
-                            placeholder="Please provide a brief description of services required." required></textarea>
+                        required aria-labelledby="Full Name">
+                    <input type="email" name="email" class="form-control" id="email" placeholder="Email Address"
+                        required aria-labelledby="Email">
+                    <textarea rows="5" name="description" id="description" class="form-control"
+                        placeholder="Please provide a brief description of services required." required aria-labelledby="Services Required"></textarea>
                     </div>
                     <div class="modal-footer">
                         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
