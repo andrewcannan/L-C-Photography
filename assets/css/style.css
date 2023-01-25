@@ -312,7 +312,8 @@
 
 .mobile-toggler {
     color: #9E9C99;
-    font-size: 30px;
+    font-size: 25px;
+    font-family: "Hind", sans-serif;
 }
 
 .mobile-nav-menu {
@@ -485,6 +486,9 @@
 
     .about-text-2 {
         padding-top: 25px;
+    }
+    .mobile-toggler {
+        font-size: 16px;
     }
 }
 
