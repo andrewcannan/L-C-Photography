@@ -13,36 +13,49 @@ This website was created as the 1st Milestone Project (User Centric Frontend Dev
 # Contents
 
 * [User Experience](#user-experience-ux)
-    
     * [Owner Goals](#owners-goals)
     * [Visitor Goals](#visitor-goals)
+<br><br>
 
 * [Design](#design)
-
     * [Wireframes](#wireframes)
     * [Color Palette](#color-palette)
     * [Typography](#typography)
     * [Images](#images)
     * [Icons](#icons)
+<br><br>
 
 * [Features](#features)
-
     * [Header](#header)
     * [Footer](#footer)
     * [Modal](#modal)
     * [About me & Testimonials](#about-me-and-testimonials)
     * [Gallery](#gallery)
     * [Contact](#contact)
-    * [Resonse](#response)
+    * [Response](#response)
+    * [404](#404)
     * [Dissapearing Header](#dissapearing-header)
     * [Future Implementation](#future-implementation)
+<br><br>
 
 * [Technologies](#technologies)
-
     * [Languages](#languages)
     * [Frameworks, Libaries and Programs](#frameworks-libaries-and-programs)
+<br><br>
+
+* [Testing](#testing)
+    * [HTML Validation](#html-validation)
+    * [CSS Validation](#css-validation)
+    * [Accessibility](#accessibility)
+    * [Performance](#performance)
+    * [User Stories](#user-stories)
+    * [Responsiveness](#responsiveness)
+<br><br>
 
 * [Deployment](#deployment)
+<br><br>
+
+* [Credits](#credits)
 
 
 
@@ -213,6 +226,12 @@ This page was made to give some visual feeback to the user that the submit butto
 <br><br>
 <img src="docs/readme-images/response-desktop2.png">
 <img src="docs/readme-images/response-mobile.png">
+<br><br>
+## 404
+A 404 error page was added to allow the user to easily return to Homepage.
+<br><br>
+<img src="docs/readme-images/404-page.png">
+<br><br>
 ## Dissapearing Header 
 In particular the **Gallery** page on mobile gets particurarly long on mobile, and I wanted a way for the user to find the nav links to other pages quicker so I found a script on [W3Schools](https://www.w3schools.com/howto/howto_js_navbar_hide_scroll.asp) and adjusted the pixel value to the height of my own navbar.
 <br><br>
@@ -259,15 +278,223 @@ The site was mainly developed using HTML and CSS, though some JavaScript was use
 # Testing
 ## HTML Validation
 The [W3C Markup Validation Service](https://validator.w3.org/) was used to validate the HTML code. Passed with 0 errors, just warnings for hyphens in the comments.
+<details>
+<summary>Homepage</summary>
+<br>
+<img src="docs/readme-images/html-validate-homepage.png">
+</details>
+<details>
+<summary>Gallery</summary>
+<br>
+<img src="docs/readme-images/html-validate-gallery.png">
+</details>
+<details>
+<summary>Contact</summary>
+<br>
+<img src="docs/readme-images/html-validate-contact.png">
+</details>
+<details>
+<summary>Response</summary>
+<br>
+<img src="docs/readme-images/html-validate-response.png">
+</details>
+<details>
+<summary>404</summary>
+<br>
+<img src="docs/readme-images/html-validate-404.png">
+</details>
 <br><br>
+
 ## CSS Validation
 The [W3C Markup Validation Service](https://jigsaw.w3.org/css-validator/) was used to validate the CSS code. Passed with 0 errors, just a warning as imported stylesheet for fonts is not checked by the service.
+<details>
+<summary>Stylesheet</summary>
+<br>
+<img src="docs/readme-images/css-validate.png">
+</details>
 <br><br>
+
 ## Accessibility
-The [WAVE WebAIM web accessibility evaluation tool](https://wave.webaim.org/) was used to check the site conforms with high accessibility standards. 
+The [WAVE WebAIM web accessibility evaluation tool](https://wave.webaim.org/) was used to check the site conforms with high accessibility standards.
+<details>
+<summary>Homepage</summary>
+<br>
+<img src="#">
+</details>
+<details>
+<summary>Gallery</summary>
+<br>
+<img src="#">
+</details>
+<details>
+<summary>Contact</summary>
+<br>
+<img src="#">
+</details>
+<details>
+<summary>Response</summary>
+<br>
+<img src="#">
+</details>
+<details>
+<summary>404</summary>
+<br>
+<img src="#">
+</details> 
 <br><br>
+
 ## Performance
 Lighthouse within google developer tools was used to check the overall performance of the site.
+<details>
+<summary>Homepage</summary>
+<br>
+<img src="#">
+</details>
+<details>
+<summary>Gallery</summary>
+<br>
+<img src="#">
+</details>
+<details>
+<summary>Contact</summary>
+<br>
+<img src="#">
+</details>
+<details>
+<summary>Response</summary>
+<br>
+<img src="#">
+</details>
+<details>
+<summary>404</summary>
+<br>
+<img src="#">
+</details>
+<br><br>
+
+## User Stories
+* Find out information about the photographer.
+
+| Feature     | Action      | Expected Result | Actual Result |
+| ----------- | ----------- |---------------- | ------------- |
+| About Me Section | Scroll down on Homepage/Click `About Me` link over Hero Image | To find an about me section beneath Hero Image | Works as expected |
+<br><br>
+* See previous work and what others think of the services.
+
+| Feature     | Action      | Expected Result | Actual Result |
+| ----------- | ----------- |---------------- | ------------- |
+| Gallery Page | Scroll down through images | To see photos from the photographer | Works as expected |
+| Testimonials Section | Scroll down on Homepage | To see reviews from past clients | Works as expected |
+| Social Media Links | Click links in Footer | To be redirected to photographers socials to see further photos | Works as expected |
+<br><br>
+* Be able to get in contact with the photographer.
+
+| Feature     | Action      | Expected Result | Actual Result |
+| ----------- | ----------- |---------------- | ------------- |
+| Modal | Click `Book Now` button | Modal to appear with contact form | Works as expected |
+| Contact Page | Fill in Form | Form to send information to photographer | Works as expected |
+| Social Media Links | Click links in Footer | To be redirected to photographers socials to contact there | Works as expected |
+<br><br>
+* Easily navigate around the site.
+
+| Feature     | Action      | Expected Result | Actual Result |
+| ----------- | ----------- |---------------- | ------------- |
+| Navbar/Header | Move viewport up | Navbar/Header to be displayed and all links to redirect correctly | Works as expected |
+<br><br>
+## Responsiveness
+Tested across various devices using Google Dev Tools and real world devices for expected look and layout. 
+
+<details>
+<summary>Samsung S22 Ultra</summary>
+<br>
+
+| Device | Page | Result |
+| ----------- | ----------- |---------------- |
+| Samsung S22 Ultra| Homepage | &check; |
+| | Gallery | &check; |
+| | Contact | &check; |
+| | Response | &check; |
+| | 404 | &check; |
+| | Modal | &check; |
+</details>
+<details>
+<summary>IPhone 12 Pro</summary>
+<br>
+
+| Device | Page | Result |
+| ----------- | ----------- |---------------- |
+| IPhone 12 Pro| Homepage | &check; |
+| | Gallery | &check; |
+| | Contact | &check; |
+| | Response | &check; |
+| | 404 | &check; |
+| | Modal | &check; |
+</details>
+<details>
+<summary>IPhone 6/7/8</summary>
+<br>
+
+| Device | Page | Result |
+| ----------- | ----------- |---------------- |
+| IPhone 6/7/8| Homepage | &check; |
+| | Gallery | &check; |
+| | Contact | &check; |
+| | Response | &check; |
+| | 404 | &check; |
+| | Modal | &check; |
+</details>
+<details>
+<summary>IPad Pro 2</summary>
+<br>
+
+| Device | Page | Result |
+| ----------- | ----------- |---------------- |
+| IPad Pro 2| Homepage | &check; |
+| | Gallery | &check; |
+| | Contact | &check; |
+| | Response | &check; |
+| | 404 | &check; |
+| | Modal | &check; |
+</details>
+<details>
+<summary>Nest Hub</summary>
+<br>
+
+| Device | Page | Result |
+| ----------- | ----------- |---------------- |
+| Nest Hub| Homepage | &check; |
+| | Gallery | &check; |
+| | Contact | &check; |
+| | Response | &check; |
+| | 404 | &check; |
+| | Modal | &check; |
+</details>
+<details>
+<summary>Samsung Galaxy A51/71</summary>
+<br>
+
+| Device | Page | Result |
+| ----------- | ----------- |---------------- |
+| Samsung Galaxy A51/71| Homepage | &check; |
+| | Gallery | &check; |
+| | Contact | &check; |
+| | Response | &check; |
+| | 404 | &check; |
+| | Modal | &check; |
+</details>
+<details>
+<summary>Surface Pro 7</summary>
+<br>
+
+| Device | Page | Result |
+| ----------- | ----------- |---------------- |
+| Surface Pro 7| Homepage | &check; |
+| | Gallery | &check; |
+| | Contact | &check; |
+| | Response | &check; |
+| | 404 | &check; |
+| | Modal | &check; |
+</details>
 
 <br><br>
 # Deployment
@@ -317,3 +544,77 @@ $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
 > remote: Compressing objects: 100% (8/8), done.
 > remove: Total 10 (delta 1), reused 10 (delta 1)
 > Unpacking objects: 100% (10/10), done.
+```
+<br><br>
+# Credits
+<details>
+<summary>Miscellaneous Images</summary>
+<br>
+
+* Hero Image - Julian Reinhart on `Unsplash`
+* Background Image Contact/Response page - Mylene Tremoyet on `Unsplash`
+* Background Image 404 page - Laula Co on `Unsplash`
+* Photo of LLoyd - Colin Lloyd on `Unsplash`
+* Abbey, Former client - Christina Wocintechchat on `Unsplash`
+* John, Former client - Ali Morshedlou on `Unsplash`
+</details>
+<details>
+<summary>Wedding Images</summary>
+<br>
+
+* Wedding photo 1 - Jeremy Wong on `Unsplash`
+* Wedding photo 2 - CVG Alvaro on `Unsplash`
+* Wedding photo 3 - Arion Reyvonputra on `Unsplash`
+* Wedding photo 4 - Drew Coffman on `Unsplash`
+* Wedding photo 5 - Vitor Monthay on `Unsplash`
+* Wedding photo 6 - Victoria Priessnitz on `Unsplash`
+* Wedding photo 7 - Jeongim Kwon on `Unsplash`
+* Wedding photo 8 - Elvis Bekmanis on `Unsplash`
+* Wedding photo 9 - Leonardo Miranda on `Unsplash`
+* Wedding photo 10 - Marissa Morton on `Unsplash`
+* Wedding photo 11 - Ulyana Tim on `Unsplash`
+* Wedding photo 12 - Nick Karvounis on `Unsplash`
+</details>
+<details>
+<summary>Concert Images</summary>
+<br>
+
+* Concert photo 1 - Evegeniy Smersh on `Unsplash`
+* Concert photo 2 - Hector Bermudez on `Unsplash`
+* Concert photo 3 - Ilip Andrejevic on `Unsplash`
+* Concert photo 4 - Joel Muniz on `Unsplash`
+* Concert photo 5 - John Crozier on `Unsplash`
+* Concert photo 6 - Jose Pinto on `Unsplash`
+* Concert photo 7 - Kai Oberhauser on `Unsplash`
+* Concert photo 8 - Manuel Sanchez on `Unsplash`
+* Concert photo 9 - Natalie Parham on `Unsplash`
+* Concert photo 10 - Ornelas Tapia on `Unsplash`
+* Concert photo 11 - Vlad Shalaginov on `Unsplash`
+* Concert photo 12 - Wan San Yip on `Unsplash`
+</details>
+<details>
+<summary>Concert Images</summary>
+<br>
+
+* Portrait photo 1 - Craig Mckay on `Unsplash`
+* Portrait photo 2 - Daniel Lincoln on `Unsplash`
+* Portrait photo 3 - Ethan Hoover on `Unsplash`
+* Portrait photo 4 - Joseph Pearson on `Unsplash`
+* Portrait photo 5 - Karl Magnuson on `Unsplash`
+* Portrait photo 6 - Tegan Mierle on `Unsplash`
+* Portrait photo 7 - Michael Austin on `Unsplash`
+* Portrait photo 8 - Mubariz Mehdizadeh on `Unsplash`
+* Portrait photo 9 - Noah Silliman on `Unsplash`
+* Portrait photo 10 - Tefan Stefancik on `Unsplash`
+* Portrait photo 11 - Matheus Ferrero on `Unsplash`
+* Portrait photo 12 - Warren Wong on `Unsplash`
+</details>
+<details>
+<summary>Other Credits</summary>
+<br>
+
+* Masonary Style Gallery Images - Love Running Project
+* Script for Navbar - W3Schools
+</details>
+
+
