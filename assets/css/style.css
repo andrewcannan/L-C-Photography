@@ -176,7 +176,6 @@
     bottom: 100px;
     text-align: center;
     padding-top: 30px;
-    background: none;
 }
 
 .about-link-text {
@@ -329,6 +328,12 @@
     padding: 8px 0 8px 16px;
 }
 
+.mobile-gallery-nav {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
 /*------------------------------------------------------contact page---------------------------------------------*/
 
 .contact-row {
@@ -464,9 +469,9 @@
         top: 40px;
     }
 
-        .gallery-heading h1,h2 {
-            font-size: 23px;
-        }
+    .gallery-heading h1,h2 {
+        font-size: 23px;
+    }
 }
 
 @media screen and (min-width: 992px) {
@@ -534,11 +539,5 @@
 .my-modal-subtitle {
     font-family: "Hind", sans-serif;
     text-align: center;
-}
-
-.mobile-gallery-nav {
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
 }
 

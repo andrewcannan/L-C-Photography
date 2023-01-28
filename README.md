@@ -82,41 +82,41 @@ Created wireframes using balsamiq software.
 <details>
 <summary>Homepage Desktop</summary>
 <br>
-<img src="docs/readme-images/Homepage-Desktop.png">
+<img src="docs/readme-images/homepage-desktop-wireframe.png">
 </details>
 <details>
 <summary>Homepage Mobile</summary>
 <br>
-<img src="docs/readme-images/Homepage-Mobile.png">
+<img src="docs/readme-images/homepage-mobile-wireframe.png">
 </details>
 <details>
 <summary>Gallery Desktop</summary>
 <br>
-<img src="docs/readme-images/Gallery-Desktop.png">
+<img src="docs/readme-images/gallery-desktop-wireframe.png">
 </details>
 <details>
 <summary>Gallery Mobile</summary>
 <br>
-<img src="docs/readme-images/Gallery-Mobile.png">
+<img src="docs/readme-images/gallery-mobile-wireframe.png">
 </details>
 <details>
 <summary>Contact Desktop</summary>
-<img src="docs/readme-images/Contact-Desktop.png">
+<img src="docs/readme-images/contact-desktop-wireframe.png">
 </details>
 <details>
 <summary>Contact Mobile</summary>
 <br>
-<img src="docs/readme-images/Contact-Mobile.png">
+<img src="docs/readme-images/contact-mobile-wireframe.png">
 </details>
 <details>
 <summary>Response Desktop</summary>
 <br>
-<img src="docs/readme-images/Response-Desktop.png">
+<img src="docs/readme-images/response-desktop-wireframe.png">
 </details>
 <details>
 <summary>Response Mobile</summary>
 <br>
-<img src="docs/readme-images/Response-Mobile.png">
+<img src="docs/readme-images/response-mobile-wireframe.png">
 </details>
 <br>
 </details>
@@ -147,30 +147,38 @@ All icons used on the site from [FontAwesome](https://fontawesome.com/).
 The website is 4 pages. A **Home** page, a **Gallery** page, a **Contact** page and a **Response** page which is linked to when the form is successfully submitted on the the **Contact** page. There is also a Modal which contains the same form from the **Contact** page and also redirects to the **Response** page.
 <br><br>
 ## Header
-The header is responsive to all screen sizes. On large screens, it expands horizontally, while on mobile and narrower screens the menu bar is replaced with a hamburger toggler icon. Clicking this icon epands the navbar to reveal the menu items.
+The header was created to allow to user to easily navigate throughout the site. It is responsive to all screen sizes. 
+
+On large screens, it expands horizontally, while on mobile and narrower screens the menu bar is replaced with a hamburger toggler icon. Clicking this icon epands the navbar to reveal the menu items.
 
 
 The menu items change color to indicate current page, also on mouseover to give feedback about choices to the user.
 <br><br>
-<img src="docs/readme-images/navbar-large.png">
-<img src="docs/readme-images/ezgif.com-gif-maker(1).gif">
-<img src="docs/readme-images/navbar-mobile.png">
-<img src="docs/readme-images/navbar-expanded.png">
+<img src="docs/readme-images/header-desktop2.png">
+<img src="docs/readme-images/header-gif.gif">
+<img src="docs/readme-images/header-mobile2.png">
+<img src="docs/readme-images/header-expand-mobile2.png">
 <br><br>
 ## Footer
+The footer allows the user to navigate to photographers social media accounts to see more work or get in contact via these platforms.
+
 Footer conatains the name of the site/business and links to social accounts. Links are to homepages of respective social media platforms only. It is responsive to all screen sizes.
 <br><br>
 <img src="docs/readme-images/footer-large.png">
 <img src="docs/readme-images/footer-mobile.png">
 <br><br>
 ## Modal 
+Modal allows user to have an easily accessible means of contacting the photographer no matter where on the site they are currently viewing.
+
 The template for the Modal that appears when the **Book Now** button is clicked (found across the site) was taken from bootstrap. Just added my own form from the **Contact** page and added some styling in CSS. 
 <br><br>
 <img src="docs/readme-images/modal.png">
 
-<img src="docs/readme-images/book-button.png"><img src="assets/images/readme-images/book-button-2.png">
+<img src="docs/readme-images/book-now-button-2.png"><img src="docs/readme-images/book-now-mobile2.png">
 <br><br>
 ## About Me and Testimonials 
+Theses sections allow the user to gain some personal background information about the photographer in order to make a decision if they want to comission him for some work.
+
 This area of the **Home** page offers information about Lloyd and and his passion for Photography. Also a few testaments to his past work to entice new clients. Bootstrap grid used for postioning and responsiveness. About me section of the page has three columns that also reorder dependant on the size of the device.
 <br><br>
 <img src="docs/readme-images/about-me-large.png">
@@ -179,29 +187,31 @@ This area of the **Home** page offers information about Lloyd and and his passio
 <img src="docs/readme-images/testimonials-mobile.png">
 <br><br>
 ## Gallery
+Gallery allows the user to see previous work done by the photographer.
+
 Gallery is seperated in to three rows using bootstrap grid and images set in CSS to display in a masonary flexible approach similar to that on the Love Running Project. Images scale up when hovered over only on large screen sizes.
 
 **Book Now** button next to headings available for viewing on small screen sizes only, displays modal with contact form and links to **Response** page. 
 
 Also only viewable on mobile is navigation menu fixed to the bottom right corner as the page gets particularly long with the amount of images, making it cumbersome to navigate from portrait photos to wedding photos for example. Bootstrap toggler template taken and adjusted and styled. 
 <br><br>
-<img src="docs/readme-images/gallery-large.png">
-<img src="docs/readme-images/gallery-mid.png">
-<img src="docs/readme-images/gallery-mobile.png">
-<img src="docs/readme-images/ezgif.com-gif-maker-2(1).gif">
+<img src="docs/readme-images/gallery-desktop2.png">
+<img src="docs/readme-images/gallery-tablet2.png">
+<img src="docs/readme-images/gallery-mobile2.png">
+<img src="docs/readme-images/gallery-gif.gif">
 <br><br>
 ## Contact
 The contact page is a simple form with screen reader only labels. The form has an action of response.html so that the **submit** button links to the response page. Ideally this would post to an email address if developed further.
 
 Border colors change on mouse hover to give some feedback to the user. All fields are required in order to submit.
 <br><br>
-<img src="docs/readme-images/contact-large.png">
+<img src="docs/readme-images/contact-desktop2.png">
 <img src="docs/readme-images/contact-mobile.png">
 <br><br>
 ## Response 
 This page was made to give some visual feeback to the user that the submit button on the contact page has successfully submitted the form.
 <br><br>
-<img src="docs/readme-images/response-large.png">
+<img src="docs/readme-images/response-desktop2.png">
 <img src="docs/readme-images/response-mobile.png">
 ## Dissapearing Header 
 In particular the **Gallery** page on mobile gets particurarly long on mobile, and I wanted a way for the user to find the nav links to other pages quicker so I found a script on [W3Schools](https://www.w3schools.com/howto/howto_js_navbar_hide_scroll.asp) and adjusted the pixel value to the height of my own navbar.
@@ -239,9 +249,25 @@ The site was mainly developed using HTML and CSS, though some JavaScript was use
     * Used to create wireframes.
 * Techsini
     * Used to create mock ups.
+* EZgif
+    * Used to create gifs for readme.
+* WAVE 
+    * Used to check accessibility of site.
+* Favicon.io
+    * Used to create a favicon.
+<br><br>
+# Testing
+## HTML Validation
+The [W3C Markup Validation Service](https://validator.w3.org/) was used to validate the HTML code. Passed with 0 errors, just warnings for hyphens in the comments.
+<br><br>
+## CSS Validation
+The [W3C Markup Validation Service](https://jigsaw.w3.org/css-validator/) was used to validate the CSS code. Passed with 0 errors, just a warning as imported stylesheet for fonts is not checked by the service.
+<br><br>
+## Accessibility
+The [WAVE WebAIM web accessibility evaluation tool](https://wave.webaim.org/) was used to check the site conforms with high accessibility standards. 
+
 <br><br>
 # Deployment
-
 ## Deployment
 <br>
 
