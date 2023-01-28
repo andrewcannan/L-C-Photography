@@ -265,6 +265,9 @@ The [W3C Markup Validation Service](https://jigsaw.w3.org/css-validator/) was us
 <br><br>
 ## Accessibility
 The [WAVE WebAIM web accessibility evaluation tool](https://wave.webaim.org/) was used to check the site conforms with high accessibility standards. 
+<br><br>
+## Performance
+Lighthouse within google developer tools was used to check the overall performance of the site.
 
 <br><br>
 # Deployment
