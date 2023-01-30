@@ -317,7 +317,7 @@ The [W3C Markup Validation Service](https://jigsaw.w3.org/css-validator/) was us
 <br><br>
 
 ## Accessibility
-The [WAVE WebAIM web accessibility evaluation tool](https://wave.webaim.org/) was used to check the site conforms with high accessibility standards. Most pages show same warning for "redundant link" as the home nav item and brand both link to index.html, also shows two contrast errors for text over images which I believe to be a shortcoming of wave. Cannot analyze the images so pressumes the background is white.
+The [WAVE WebAIM web accessibility evaluation tool](https://wave.webaim.org/) was used to check the site conforms with high accessibility standards. Most pages show same warning for "redundant link" as the home nav item and brand both link to index.html, also shows two contrast errors for text over images which I believe to be a shortcoming of wave not able to analyze images. Fallback color is set incase of image not loaded.
 <details>
 <summary>Homepage</summary>
 <br>
