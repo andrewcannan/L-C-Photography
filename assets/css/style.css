@@ -148,6 +148,7 @@
     animation-name: hero-zoom;
     animation-duration: 5s;
     animation-fill-mode: forwards;
+    background-color: #000;
 
 }
 
@@ -285,6 +286,7 @@
 
 .photos img {
     width: 100%;
+    background-color: #000;
 }
 
 .gallery-heading-top-container {
