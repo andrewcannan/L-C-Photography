@@ -315,31 +315,35 @@ The [W3C Markup Validation Service](https://jigsaw.w3.org/css-validator/) was us
 <br><br>
 
 ## Accessibility
-The [WAVE WebAIM web accessibility evaluation tool](https://wave.webaim.org/) was used to check the site conforms with high accessibility standards.
+The [WAVE WebAIM web accessibility evaluation tool](https://wave.webaim.org/) was used to check the site conforms with high accessibility standards. Most pages show same warning for "redundant link" as the home nav item and brand both link to index.html, also shows two contrast errors for text over images which I believe to be a shortcoming of wave. Cannot analyze the images so pressumes the background is white.
 <details>
 <summary>Homepage</summary>
 <br>
-<img src="#">
+
+<img src="docs/readme-images/wave-homepage.png">
+<img src="docs/readme-images/wave-homepage-contrast.png">
 </details>
 <details>
 <summary>Gallery</summary>
 <br>
-<img src="#">
+
+<img src="docs/readme-images/wave-gallery.png">
+<img src="docs/readme-images/wave-gallery-contrast.png">
 </details>
 <details>
 <summary>Contact</summary>
 <br>
-<img src="#">
+<img src="docs/readme-images/wave-contact.png">
 </details>
 <details>
 <summary>Response</summary>
 <br>
-<img src="#">
+<img src="docs/readme-images/wave-response.png">
 </details>
 <details>
 <summary>404</summary>
 <br>
-<img src="#">
+<img src="docs/readme-images/wave-404.png">
 </details> 
 <br><br>
 
@@ -348,27 +352,28 @@ Lighthouse within google developer tools was used to check the overall performan
 <details>
 <summary>Homepage</summary>
 <br>
-<img src="#">
+<img src="docs/readme-images/lighthouse-homepage.png">
 </details>
 <details>
 <summary>Gallery</summary>
 <br>
-<img src="#">
+Low performance score due to amount of images. Files already resized, formatted and compressed.
+<img src="docs/readme-images/lighthouse-gallery.png">
 </details>
 <details>
 <summary>Contact</summary>
 <br>
-<img src="#">
+<img src="docs/readme-images/lighthouse-contact.png">
 </details>
 <details>
 <summary>Response</summary>
 <br>
-<img src="#">
+<img src="docs/readme-images/lighthouse-response.png">
 </details>
 <details>
 <summary>404</summary>
 <br>
-<img src="#">
+<img src="docs/readme-images/lighthouse-404.png">
 </details>
 <br><br>
 
@@ -399,7 +404,7 @@ Lighthouse within google developer tools was used to check the overall performan
 
 | Feature     | Action      | Expected Result | Actual Result |
 | ----------- | ----------- |---------------- | ------------- |
-| Navbar/Header | Move viewport up | Navbar/Header to be displayed and all links to redirect correctly | Works as expected |
+| Navbar/Header | Scroll up | Navbar/Header to be displayed and all links to redirect correctly | Works as expected |
 <br><br>
 ## Responsiveness
 Tested across various devices using Google Dev Tools and real world devices for expected look and layout. 
@@ -613,7 +618,7 @@ $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
 <summary>Other Credits</summary>
 <br>
 
-* Masonary Style Gallery Images - Love Running Project
+* Masonary Style Gallery Images - Inspiration from Love Running Project
 * Script for Navbar - W3Schools
 </details>
 
