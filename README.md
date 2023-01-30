@@ -157,7 +157,9 @@ All icons used on the site from [FontAwesome](https://fontawesome.com/).
 <br><br>
 <br><br>
 # Features
-The website is 4 pages. A **Home** page, a **Gallery** page, a **Contact** page and a **Response** page which is linked to when the form is successfully submitted on the the **Contact** page. There is also a Modal which contains the same form from the **Contact** page and also redirects to the **Response** page.
+The website is 4 pages. A **Home** page, a **Gallery** page, a **Contact** page and a **Response** page which is linked to when the form is successfully submitted on the the **Contact** page. There is also a Modal which contains the same form from the **Contact** page and also redirects to the **Response** page. 
+
+404 page was created incase the page a visitor is trying to be accessed cannot be and will provide an option to redirect back to the homepage.
 <br><br>
 ## Header
 The header was created to allow to user to easily navigate throughout the site. It is responsive to all screen sizes. 
