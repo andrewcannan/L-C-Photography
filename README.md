@@ -9,6 +9,7 @@ This website was created as the 1st Milestone Project (User Centric Frontend Dev
 <br><br>
 
 ---
+<br><br>
 
 # Contents
 
@@ -55,13 +56,8 @@ This website was created as the 1st Milestone Project (User Centric Frontend Dev
 * [Deployment](#deployment)
 <br><br>
 
-* [Credits](#credits)
-
-
-
-
-
-<br><br>
+* [Credits](#credits)<br><br>
+<br>
 
 # User Experience UX
 L C Photography is a fictional website made for a professional photographer Lloyd Chidgey.
@@ -82,7 +78,7 @@ L C Photography is a fictional website made for a professional photographer Lloy
 * Easily navigate around the site.
 * View the site on device at hand.
 <br><br>
-<br><br>
+<br>
 # Design
 
 ## Wireframes
@@ -133,7 +129,7 @@ Created wireframes using balsamiq software.
 </details>
 <br>
 </details>
-<br><br>
+<br>
 
 ## Color Palette
 Created color palette by taking colors from background image on Contact and Response pages. Used canva.com to generate 4 colors from the image.
@@ -155,7 +151,7 @@ Images sourced from royalty free site [Unsplash](https://unsplash.com/). Images 
 ## Icons
 All icons used on the site from [FontAwesome](https://fontawesome.com/).
 <br><br>
-<br><br>
+<br>
 # Features
 The website is 4 pages. A **Home** page, a **Gallery** page, a **Contact** page and a **Response** page which is linked to when the form is successfully submitted on the the **Contact** page. There is also a Modal which contains the same form from the **Contact** page and also redirects to the **Response** page. 
 
@@ -230,7 +226,8 @@ This page was made to give some visual feeback to the user that the submit butto
 <img src="docs/readme-images/response-mobile.png">
 <br><br>
 ## 404
-A 404 error page was added to allow the user to easily return to Homepage.
+A 404 error page was added to allow the user to easily return to Homepage. Added so that if the user attempts to access a webpage that doesn't exist or has a broken link they can easily navigate back to the site, turning the negative experience into a positive one.
+
 <br><br>
 <img src="docs/readme-images/404-page.png">
 <br><br>
@@ -240,7 +237,7 @@ In particular the **Gallery** page on mobile gets particurarly long on mobile, a
 ## Future Implementation 
 Further development to the site could be using some php to create a database of form submissions, direct the user to another page (e.g. response page), and send an email.
 <br><br>
-<br><br>
+<br>
 # Technologies
 ## Languages
 The site was mainly developed using HTML and CSS, though some JavaScript was used to to make the disappearing navbar feature.
@@ -277,9 +274,10 @@ The site was mainly developed using HTML and CSS, though some JavaScript was use
 * Favicon.io
     * Used to create a favicon.
 <br><br>
+<br>
 # Testing
 ## HTML Validation
-The [W3C Markup Validation Service](https://validator.w3.org/) was used to validate the HTML code. Passed with 0 errors, just warnings for hyphens in the comments.
+The [W3C Markup Validation Service](https://validator.w3.org/) was used to validate the HTML code. Passed with 0 errors.
 <details>
 <summary>Homepage</summary>
 <br>
@@ -407,6 +405,14 @@ Low performance score due to amount of images. Files already resized, formatted 
 | Feature     | Action      | Expected Result | Actual Result |
 | ----------- | ----------- |---------------- | ------------- |
 | Navbar/Header | Scroll up | Navbar/Header to be displayed and all links to redirect correctly | Works as expected |
+<br><br>
+* Negative Testing
+
+| Feature     | Action      | Expected Result | Actual Result |
+| ----------- | ----------- |---------------- | ------------- |
+| Required values on form inputs | Left field blank | Form should not submit | Works as expected |
+| Email input type on form | Try to submit with text other than email adress | Form should not submit | Works as expected |
+| 404 page | Input random characters into url | Should redirect to 404/error page | Works as expected |
 <br><br>
 ## Responsiveness
 Tested across various devices using Google Dev Tools and real world devices for expected look and layout. 
@@ -554,6 +560,7 @@ $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
 ```
 <br><br>
 # Credits
+All photos sourced from [Unsplash](https://unsplash.com/) authors of photos listed below.
 <details>
 <summary>Miscellaneous Images</summary>
 <br>
@@ -621,7 +628,7 @@ $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
 <br>
 
 * Masonary Style Gallery Images - Inspiration from Love Running Project
-* Script for Navbar - W3Schools
+* Script for Navbar - [W3Schools](https://www.w3schools.com/howto/howto_js_navbar_hide_scroll.asp)
 </details>
 
 
