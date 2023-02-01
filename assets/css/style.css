@@ -200,6 +200,7 @@
     background-size: cover;
     margin: 0 auto;
     background-color: #000;
+    margin-top: 15px;
 }
 
 .about-text-container {
@@ -493,6 +494,10 @@ h2 {
     .testimonial-text {
         padding: 0;
     }
+
+    .lloyd-photo {
+        margin: 0 auto;
+    }
 }
 
 @media screen and (min-width: 992px) {
@@ -507,6 +512,7 @@ h2 {
     .my-nav-item .my-nav-link.active {
         color: #9E9C99;
         border-bottom: #9E9C99 1px solid;
+        text-decoration: none;
     }
 }
 
