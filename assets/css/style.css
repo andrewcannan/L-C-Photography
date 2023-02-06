@@ -43,7 +43,6 @@
     transition: color .35s ease-in-out, box-shadow .35s ease-in-out;
     box-shadow: inset 0 0 0 0 #111C2F;
     border-radius: 20%;
-
 }
 
 .my-nav-item .my-nav-link.active {
@@ -93,7 +92,6 @@
     background-color: #112B2F;
     color: #000;
     transition: color .15s ease-in-out;
-
 }
 
 #sticky {
@@ -151,7 +149,6 @@
     animation-duration: 5s;
     animation-fill-mode: forwards;
     background-color: #000;
-
 }
 
 .hero-outer {
@@ -381,7 +378,6 @@ h2 {
     margin-top: 20px;
     font-size: calc(2.5rem + .9vw);
     font-weight: 600;
-
 }
 
 .contact-paragraph {
@@ -405,7 +401,6 @@ h2 {
 
 .submit-btn:hover {
     border-color: #112B2F;
-
 }
 
 /*------------------------------------------------------response page---------------------------------------------*/
@@ -516,7 +511,7 @@ h2 {
     }
 }
 
-/* styling generally developed with mobile first in mind but a few extra media rules created for xs small screens */
+/* styling generally developed with mobile first in mind but a few extra stylings created for xs small screens */
 @media screen and (max-width: 376px) {
     .response-container {
         padding-top: 85px;
